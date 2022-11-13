@@ -25,6 +25,10 @@ html {
     display: flex;
 }
 
+.navbar ul {
+    display: none;
+}
+
 .boton-menu {
     display: inline-block;
     margin: 1vh;
@@ -172,7 +176,7 @@ img.jpg {
     max-width: 60px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 450px) {
     .menu {
         display: none;
     }
@@ -187,7 +191,7 @@ img.jpg {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 450px) {
     .navbar .menu .link {
         transition: color 0.6s linear;
     }
