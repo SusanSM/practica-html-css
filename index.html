@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>My portfolio</title>
+</head>
+
+<body>
+
+
+    <div class="portada">
+        <img src="images/fotoprincipal.jpg">
+        <h1 class="titulo">My Portfolio</h1>
+    </div>
+
+    <nav class="navbar">
+
+        <span class="boton-menu"></span>
+        <ul class="menu">
+            <li>
+                <a class="link" href="#">Home</a>
+            </li>
+            <li>
+                <a class="link" href="#">CV</a>
+            </li>
+            <li>
+                <a class="link" href="#">Contacto</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <section>
+        <h2>Who is Susan?</h2>
+        <p>Porque aún no me conoces, pero podrías tener la oportunidad de. Porque no todos los perfiles de programadores son iguales. Porque cuando menos te lo esperas, encuentras justo la pieza que le faltaba a tu equipo. No sólo encaja, es que fluye, soluciona
+            los molestos chirridos, consigues ver el "movimiento".
+    </section>
+    <div class="lenguaje">
+        <h2>Lenguajes de Programación</h2>
+        <p>Python</p>
+        <div class="contenedor">
+            <div class="lenguaje uno">70%</div>
+        </div>
+
+        <p>HTML-CSS</p>
+        <div class="contenedor">
+            <div class="lenguaje dos">50%</div>
+        </div>
+
+        <p>Javascript</p>
+        <div class="contenedor">
+            <div class="lenguaje tres">30%</div>
+        </div>
+
+        <p>NodeJS</p>
+        <div class="contenedor">
+            <div class="lenguaje cuatro">10%</div>
+        </div>
+
+    </div>
+    <form action="#" method="post" class="formulario">
+        <h2>How to let me a message:</h2>
+
+        <label class="datos" for="nombre">Your name</label>
+        <input required="" id="nombre" name="name" type="text" placeholder="Name">
+
+        <label class="datos" for="apellido">Your surname</label>
+        <input required="" id="apellido" name="apellido" type="text" placeholder="Surname">
+
+
+        <label class="datos" for="phone">Your phone</label>
+        <input type="tel" id="phone" name="phone" pattern="^([0-9]+)" placeholder="Mobile">
+
+
+        <label class="datos" for="github">GitHub username</label>
+        <input type="text" id="github" name="github" pattern="^@[^\s]+" placeholder="@username">
+
+
+        <label class="datos" for="bio">What is this message about...?</label>
+        <textarea required="" id="bio" maxlength="180" placeholder="Please, don't tell me your whole life..."></textarea>
+
+        <fieldset class="option">
+            <legend>How did you find me?</legend>
+            <div>
+                <label for="universidad">At University</label>
+                <input required="" id="universidad" type="radio" name="choice" value="universidad">
+            </div>
+
+            <div>
+                <label for="colegio">At school</label>
+                <input required="" id="colegio" type="radio" name="choice" value="colegio">
+            </div>
+            <div>
+                <label for="KeepCoding">KeepCoding groups</label>
+                <input required="" id="KeepCoding" type="radio" name="choice" value="KeepCoding">
+            </div>
+            <div>
+                <label for="Github">Github community</label>
+                <input required="" id="Github" type="radio" name="choice" value="Github">
+            </div>
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <footer>
+        <nav class="footer">
+            <div>
+                <a title="Linkedin" href="https://www.linkedin.com/" target="_blank"><img class="jpg" src="images/linkedin.jpg" alt="logo"></a>
+            </div>
+            <div>
+                <a title="Facebook" href="https://www.facebook.com/" target="_blank"><img class="jpg" src="images/facebook.jpg" alt="logo"></a>
+            </div>
+            <div>
+                <a title="Twitter" href="https://twitter.com/" target="_blank"><img class="jpg" src="images/twitter.jpg" alt="logo"></a>
+            </div>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
